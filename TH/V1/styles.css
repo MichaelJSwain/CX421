@@ -1,0 +1,9 @@
+.CX421_usp_container {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+.CX421_usp_container_inner {
+    margin: 0;
+    padding: 16px;
+}

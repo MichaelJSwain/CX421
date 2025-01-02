@@ -11,9 +11,10 @@ const CX421 = {
     },
     createUSPelem: () => {
         const elem = document.createElement('div');
+        elem.setAttribute('class', 'CX421_usp_container');
         const text = CX421.copy[window.__NEXT_DATA__.props.pageProps.initialState.currentStore.target] || CX421.copy.default;
-        elem.innerHTML = `<ul>
-                            <li>${text}</li>
+        elem.innerHTML = `<ul class='CX421_usp_container_inner'>
+                            <li class='CX421_usp_item'>${text}</li>
                         </ul>`;
         return elem;
     },
